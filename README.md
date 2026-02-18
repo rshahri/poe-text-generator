@@ -57,13 +57,13 @@ This project serves both as:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/poe-text-generator.git
+git clone https://github.com/rshahri/poe-text-generator.git
 cd poe-text-generator
 ```
 ### 2️⃣ Install dependencies
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/poe-text-generator.git
+git clone https://github.com/rshahri/poe-text-generator.git
 cd poe-text-generator
 ```
 ### 3️⃣ Open the notebook
