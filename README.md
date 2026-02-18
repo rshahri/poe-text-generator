@@ -69,7 +69,7 @@ cd poe-text-generator
 ### 3️⃣ Open the notebook
 
 ```bash
-notebooks/poe_text_generator.ipynb
+notebooks/edgar-allan-poe.ipynb
 ```
 
 Run all cells sequentially from top to bottom.
