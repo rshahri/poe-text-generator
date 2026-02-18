@@ -66,13 +66,17 @@ cd poe-text-generator
 git clone https://github.com/YOUR_USERNAME/poe-text-generator.git
 cd poe-text-generator
 ```
-### Open the notebook
+### 3️⃣ Open the notebook
 
+```bash
 notebooks/poe_text_generator.ipynb
+```
 
 Run all cells sequentially from top to bottom.
 
 **⚡ GPU strongly recommended for training.**
+
+---
 
 ## 🌒 Text Generation Controls
 
@@ -88,11 +92,16 @@ Generation can be controlled using:
 
 Small changes to these parameters significantly affect tone, coherence, and creativity.
 
+---
+
 ## 📚 Data Source
 
 Texts are downloaded at runtime from Project Gutenberg public-domain editions of Edgar Allan Poe’s works.
 
 No raw Gutenberg files are stored in this repository.
+
+---
+
 
 ## ⚠️ Limitations
 
@@ -103,6 +112,10 @@ No raw Gutenberg files are stored in this repository.
 - Stylistic similarity does not imply semantic accuracy
 
 - The model captures statistical patterns rather than authorial intent
+
+
+---
+
 
 ## 🔬 Educational Value
 
