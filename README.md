@@ -1,123 +1,128 @@
-🕯️ Poe Text Generator
-Fine-Tuning GPT-2 on Edgar Allan Poe’s Public-Domain Works
+# 🕯️ Poe Text Generator
+## Fine-Tuning GPT-2 on Edgar Allan Poe’s Public-Domain Works
 
-Where neural networks meet candlelight.
+*Where neural networks meet candlelight.*
 
-This project fine-tunes a GPT-2 language model on the public-domain writings of Edgar Allan Poe to generate new text in a Poe-inspired literary style.
+This project fine-tunes a **GPT-2** language model on the public-domain writings of Edgar Allan Poe to generate new text in a Poe-inspired literary style.  
 It blends classical literature with modern Transformer-based deep learning.
 
-📖 About the Project
+---
+
+## 📖 About the Project
 
 This repository contains a complete NLP pipeline implemented in a Jupyter notebook.
 
 The workflow includes:
 
-📥 Downloading Poe’s texts from Project Gutenberg
-
-🧹 Cleaning and merging raw literary data
-
-🔠 Tokenization and sequence chunking
-
-🧠 Fine-tuning GPT-2 using HuggingFace Transformers
-
-🌫️ Generating new Poe-style passages
+- 📥 Downloading Poe’s texts from Project Gutenberg  
+- 🧹 Cleaning and merging raw literary data  
+- 🔠 Tokenization and sequence chunking  
+- 🧠 Fine-tuning GPT-2 using HuggingFace Transformers  
+- 🌫️ Generating new Poe-style passages  
 
 This project serves both as:
 
-A practical Transformer fine-tuning exercise
+- A practical Transformer fine-tuning exercise  
+- A stylistic experiment in computational literature  
 
-A stylistic experiment in computational literature
+---
 
-🧠 Model Details
+## 🧠 Model Details
 
-Base Model: gpt2
+- **Base Model:** `gpt2`  
+- **Framework:** HuggingFace Transformers + PyTorch  
+- **Training Type:** Full fine-tuning  
+- **Environment:** Google Colab (GPU recommended)
 
-Framework: HuggingFace Transformers + PyTorch
+### Why GPT-2?
 
-Training Type: Full fine-tuning
+- Lightweight enough for experimentation  
+- Strong baseline for stylistic modeling  
+- Fast training cycle  
 
-Environment: Google Colab (GPU recommended)
+---
 
-Why GPT-2?
+## 🔁 Pipeline Overview
 
-Lightweight enough for experimentation
+1. Download corpus  
+2. Clean and preprocess text  
+3. Tokenize and chunk sequences  
+4. Fine-tune GPT-2  
+5. Generate new text samples  
 
-Strong baseline for stylistic modeling
+---
 
-Fast training cycle
+## 🚀 Running the Project
 
-🔁 Pipeline Overview
+### 1️⃣ Clone the repository
 
-Download corpus
-
-Clean and preprocess text
-
-Tokenize and chunk sequences
-
-Fine-tune GPT-2
-
-Generate new text samples
-
-🚀 Running the Project
-Clone the repository
+```bash
 git clone https://github.com/YOUR_USERNAME/poe-text-generator.git
 cd poe-text-generator
+```
+### 2️⃣ Install dependencies
 
-Install dependencies
-pip install -r requirements.txt
+```bash
+git clone https://github.com/YOUR_USERNAME/poe-text-generator.git
+cd poe-text-generator
+```
+### Open the notebook
 
-Open the notebook
 notebooks/poe_text_generator.ipynb
-
 
 Run all cells sequentially from top to bottom.
 
-⚡ GPU strongly recommended for training.
+**⚡ GPU strongly recommended for training.**
 
-🌒 Text Generation Controls
+## 🌒 Text Generation Controls
 
 After training, the model generates new Poe-style passages.
 
 Generation can be controlled using:
 
-temperature — controls randomness
+- temperature — controls randomness
 
-top_p — nucleus (probability mass) sampling
+- top_p — nucleus (probability mass) sampling
 
-max_length — length of generated text
+- max_length — length of generated text
 
 Small changes to these parameters significantly affect tone, coherence, and creativity.
 
-📚 Data Source
+## 📚 Data Source
 
 Texts are downloaded at runtime from Project Gutenberg public-domain editions of Edgar Allan Poe’s works.
 
 No raw Gutenberg files are stored in this repository.
 
-⚠️ Limitations
+## ⚠️ Limitations
 
-Repetition may occur.
+- Repetition may occur
 
-Long-range narrative coherence is limited.
+- Long-range narrative coherence is limited
 
-Stylistic similarity does not imply semantic accuracy.
+- Stylistic similarity does not imply semantic accuracy
 
-The model captures statistical patterns rather than authorial intent.
+- The model captures statistical patterns rather than authorial intent
 
-🔬 Educational Value
+## 🔬 Educational Value
 
 This project demonstrates:
 
-Transformer fine-tuning
+- Transformer fine-tuning
 
-Literary style modeling
+- Literary style modeling
 
-Text preprocessing for language models
+- Text preprocessing for language models
 
-Decoding strategy experimentation
+- Decoding strategy experimentation
 
 It bridges classical literature and modern AI systems.
 
-🪦 License
+---
 
-MIT License.
+## 📜 License
+
+MIT License
+
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute this software with proper attribution.
