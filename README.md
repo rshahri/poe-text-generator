@@ -1,73 +1,81 @@
-# 🕯️ Poe Text Generator  
-### Fine-Tuning GPT-2 on Edgar Allan Poe’s Public-Domain Works
+🕯️ Poe Text Generator
+Fine-Tuning GPT-2 on Edgar Allan Poe’s Public-Domain Works
 
-> Where neural networks meet candlelight.
+Where neural networks meet candlelight.
 
-This project fine-tunes a GPT-2 language model on the public-domain writings of Edgar Allan Poe to generate new text in a Poe-inspired literary style.  
+This project fine-tunes a GPT-2 language model on the public-domain writings of Edgar Allan Poe to generate new text in a Poe-inspired literary style.
 It blends classical literature with modern Transformer-based deep learning.
 
----
-
-## 📖 About the Project
+📖 About the Project
 
 This repository contains a complete NLP pipeline implemented in a Jupyter notebook.
 
 The workflow includes:
 
-- 📥 Downloading Poe’s texts from Project Gutenberg  
-- 🧹 Cleaning and merging raw literary data  
-- 🔠 Tokenization and sequence chunking  
-- 🧠 Fine-tuning GPT-2 using HuggingFace Transformers  
-- 🌫️ Generating new Poe-style passages  
+📥 Downloading Poe’s texts from Project Gutenberg
+
+🧹 Cleaning and merging raw literary data
+
+🔠 Tokenization and sequence chunking
+
+🧠 Fine-tuning GPT-2 using HuggingFace Transformers
+
+🌫️ Generating new Poe-style passages
 
 This project serves both as:
 
-- A practical Transformer fine-tuning exercise  
-- A stylistic experiment in computational literature  
+A practical Transformer fine-tuning exercise
 
----
+A stylistic experiment in computational literature
 
-## 🧠 Model Details
+🧠 Model Details
 
-- **Base Model:** `gpt2`  
-- **Framework:** HuggingFace Transformers + PyTorch  
-- **Training Type:** Full fine-tuning  
-- **Environment:** Google Colab (GPU recommended)  
+Base Model: gpt2
 
-### Why GPT-2?
+Framework: HuggingFace Transformers + PyTorch
 
-- Lightweight enough for experimentation  
-- Strong baseline for stylistic modeling  
-- Fast training cycle  
+Training Type: Full fine-tuning
 
----
+Environment: Google Colab (GPU recommended)
 
-## 🔁 Pipeline Overview
+Why GPT-2?
 
-1. Download corpus  
-2. Clean and preprocess text  
-3. Tokenize and chunk sequences  
-4. Fine-tune GPT-2  
-5. Generate new text samples  
+Lightweight enough for experimentation
 
----
+Strong baseline for stylistic modeling
 
-## 🚀 Running the Project
+Fast training cycle
 
-### Clone the repository
+🔁 Pipeline Overview
 
-```bash
+Download corpus
+
+Clean and preprocess text
+
+Tokenize and chunk sequences
+
+Fine-tune GPT-2
+
+Generate new text samples
+
+🚀 Running the Project
+Clone the repository
 git clone https://github.com/YOUR_USERNAME/poe-text-generator.git
 cd poe-text-generator
+
 Install dependencies
 pip install -r requirements.txt
+
 Open the notebook
 notebooks/poe_text_generator.ipynb
+
+
 Run all cells sequentially from top to bottom.
 
 ⚡ GPU strongly recommended for training.
 
 🌒 Text Generation Controls
+
 After training, the model generates new Poe-style passages.
 
 Generation can be controlled using:
@@ -81,11 +89,13 @@ max_length — length of generated text
 Small changes to these parameters significantly affect tone, coherence, and creativity.
 
 📚 Data Source
+
 Texts are downloaded at runtime from Project Gutenberg public-domain editions of Edgar Allan Poe’s works.
 
 No raw Gutenberg files are stored in this repository.
 
 ⚠️ Limitations
+
 Repetition may occur.
 
 Long-range narrative coherence is limited.
@@ -95,6 +105,7 @@ Stylistic similarity does not imply semantic accuracy.
 The model captures statistical patterns rather than authorial intent.
 
 🔬 Educational Value
+
 This project demonstrates:
 
 Transformer fine-tuning
@@ -108,4 +119,5 @@ Decoding strategy experimentation
 It bridges classical literature and modern AI systems.
 
 🪦 License
+
 MIT License.
